@@ -1,0 +1,20 @@
+{
+  "name": "node-pdfkit",
+  "version": "1.0.0",
+  "description": "Crear un servidor node con express que debuelva un archivo PDF",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "PDF",
+    "nodeJS",
+    "express"
+  ],
+  "author": "leojim06",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pdfkit": "^0.8.3"
+  }
+}
